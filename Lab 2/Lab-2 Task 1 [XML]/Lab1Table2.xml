@@ -1,0 +1,31 @@
+ <table2>
+  <admission>
+    <information sr="1">
+       <slno> 23 </slno>
+       <name>John Carter</name>
+       <admissiondate>
+            <date> 25   </date>
+            <month> 12  </month>
+            <year> 2015 </year>
+        </admissiondate>
+    </information>   
+    <information sr="2">
+       <slno> 29 </slno>
+       <name>Bob marsahal</name>
+       <admissiondate>
+            <date> 13   </date>
+            <month> 01  </month>
+            <year> 1999 </year>
+       </admissiondate>
+    </information> 
+    <information sr="3">
+       <slno> 35 </slno>
+       <name>Clark Kent</name>
+       <admissiondate>
+            <date> 17   </date>
+            <month> 06  </month>
+            <year> 2005 </year>
+       </admissiondate>
+    </information> 
+  </admission>
+</table2>
