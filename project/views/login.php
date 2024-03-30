@@ -27,13 +27,13 @@
                     <tr>
                         <td>
                             Name: <br>
-                            <input type="text" name="name" id="name" value="<?php echo $_COOKIE['name'];?>" id="">
+                            <input type="text" name="name" id="name" value="<?php echo $_COOKIE['name'];?> soyed" id="">
                         </td>
                     </tr>
                     <tr>
                         <td>
                             Password: <br>
-                            <input type="password" name="password" id="password" value="<?php echo $_COOKIE['password'];?>" id="">
+                            <input type="password" name="password" id="password" value="<?php echo $_COOKIE['password'];?> !1234567" id="">
                         </td>
                     </tr>
                 </table>
@@ -49,6 +49,5 @@
             <h4 style="text-align: center;">Copyright©2024</h4>
         </footer>
         <hr></hr>
-
 </body>
 </html>

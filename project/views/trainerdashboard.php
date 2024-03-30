@@ -5,7 +5,7 @@
   ?>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Trainer Dashboard</title>
 </head>
 <body>
     <header>

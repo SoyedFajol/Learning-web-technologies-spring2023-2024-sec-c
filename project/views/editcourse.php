@@ -1,41 +1,4 @@
-<?php
-require_once('../controllers/session.php');
-require_once('../models/db.php');
 
-    
-    $id = $_GET['id'];
-    
-    $con = getConnection(); 
-    $sql="SELECT * FROM courses WHERE id=$id";
-    $result= mysqli_query($con,$sql);
-    $row=mysqli_fetch_assoc($result);
-    $coursename=$row['coursename'];
-    $duration=$row['duration'];
-    $price=$row['price'];
-
-
-    if (isset($_POST['submit'])) {
-      
-
-        $coursename = $_POST['coursename'];
-        $duration = $_POST['duration'];
-        $price = $_POST['price'];
-        
-        
-        $con = getConnection(); 
-        $sql = "UPDATE courses SET coursename='$coursename',duration='$duration',price='$price' WHERE id=$id";
-        $result = mysqli_query($con, $sql);
-      
-        if ($result) {
-            header("Location: ../views/courses.php");
-            exit;
-        } else {
-            die(mysqli_error($con));
-        }
-    }
-
-
-?>
 
 <html>
 <head>
@@ -83,6 +46,56 @@ require_once('../models/db.php');
 </html>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+require_once('../controllers/session.php');
+require_once('../models/db.php');
+
+    $id = $_GET['id'];
+    
+    $con = getConnection(); 
+    $sql="SELECT * FROM courses WHERE id=$id";
+    $result= mysqli_query($con,$sql);
+    $row=mysqli_fetch_assoc($result);
+    $coursename=$row['coursename'];
+    $duration=$row['duration'];
+    $price=$row['price'];
+
+
+    if (isset($_POST['submit'])) {
+      
+
+        $coursename = $_POST['coursename'];
+        $duration = $_POST['duration'];
+        $price = $_POST['price'];
+        
+        
+        $con = getConnection(); 
+        $sql = "UPDATE courses SET coursename='$coursename',duration='$duration',price='$price' WHERE id=$id";
+        $result = mysqli_query($con, $sql);
+      
+        if ($result) {
+            header("Location: ../views/courses.php");
+            exit;
+        } else {
+            die(mysqli_error($con));
+        }
+    }
+
+
+?>
 
 
 

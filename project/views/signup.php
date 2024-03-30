@@ -1,4 +1,3 @@
-
 <html>
 <head>
     <title>Signup</title>
@@ -7,13 +6,11 @@
         <header>
             <h1 style="text-align:left;">EDU4ALL </h1>
             <section style="text-align: right;">
-            <a href="login.php">Login</a>
-            
+            <a href="login.php">Login</a>         
             </section>  
         </header>
         <main>
-            <hr></hr>
-           
+            <hr></hr>        
             <table width="100%">
                 <tr>
                     <td>
@@ -22,7 +19,7 @@
                                 <table style="width: 100%;">
                                 <legend><h3>Signup</h3></legend>
                 
-                                    <tr >
+                                    <tr>
                                         <td>
                                             Name 
                                         </td>
@@ -82,7 +79,6 @@
                                               <input type="radio" name="userType" id="userType" value="Trainer">Trainer
                                         </td>
                                     </tr>
-
                                 </table>
                                 <hr>
                                 <section style="text-align: center;">
@@ -96,12 +92,9 @@
                 </table>
                 <hr>
         </main>
-
         <footer>
             <h4 style="text-align: center;">Copyright©2024</h4>
         </footer>
         <hr></hr>
-
-
     </body>
 </html>

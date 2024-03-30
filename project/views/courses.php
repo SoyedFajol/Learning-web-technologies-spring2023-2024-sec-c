@@ -4,7 +4,7 @@
 ?>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Courses</title>
 </head>
 <body>
     <header>

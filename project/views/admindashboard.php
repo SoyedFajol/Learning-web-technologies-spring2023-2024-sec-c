@@ -5,7 +5,7 @@
   ?>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
     <header>
@@ -29,7 +29,7 @@
                 <li><a href="./addcourses.php">Add Courses</a></li>
                 <li><a href="./addtrainer.php">Add Trainer</a></li>
                 <li><a href="./payments.php">Payments</a></li>
-                <li><a href="./contactus.php">Contact Us</a></li>
+                <li><a href="./contactusadmin.php">Contact Us Message</a></li>
                 <li><a href="./changePassword.php">Change Password</a></li>
                 <li><a href="../controllers/logout.php">Logout</a></li>
             </ul>  

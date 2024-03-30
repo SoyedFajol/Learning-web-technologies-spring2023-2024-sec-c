@@ -88,6 +88,22 @@ function addcourses($coursename,$duration,$price,$image)
         return false; 
     }
 }
+
+
+function addcontact($name,$email,$message)
+{
+    $con = getConnection();       
+    $sql = "INSERT INTO contactus (name, email , message) VALUES('$name', '$email', '$message')";
+    $result = mysqli_query($con, $sql);
+    if ($result) {
+        return true; 
+    } else {
+        return false; 
+    }
+}
+
+
+
 function updatecourse($course)
 {
     $con = getconnection();
